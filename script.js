@@ -63,7 +63,7 @@ btnHold.addEventListener('click', function () {
   document.querySelector(`#score--${activePlayer}`).textContent =
     score[activePlayer];
   //Check if player's score is >=50
-  if (score[activePlayer] >= 20) {
+  if (score[activePlayer] >= 30) {
     diceEl.classList.add('hidden');
     btnRoll.setAttribute('disabled', true);
     document
